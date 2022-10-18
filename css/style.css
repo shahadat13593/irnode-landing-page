@@ -1,0 +1,282 @@
+/* ! -------------------------- Header ------------------------- */
+
+.header {
+  background-color: #1a1c24;
+  padding: 0 9.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9.6rem;
+}
+
+.main-logo {
+  height: 22.2rem;
+}
+
+/* ?  ---------- navbar --------------- */
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #e8e8e9;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #fff;
+  border-bottom: solid 1px #fff;
+}
+
+/* ! -------------------------- Hero Section ------------------------- */
+
+.section-hero {
+  padding: 3.6rem 0rem 9.6rem 0rem;
+  background-color: #1a1c24;
+}
+
+.hero {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+  color: #e8e8e9;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/* ! -------------------------- Service Section ------------------------- */
+
+.section-service {
+  padding: 9.6rem 0rem 9.6rem 0rem;
+}
+
+/* .icons {
+  width: 4rem;
+  height: 4rem;
+  stroke: #1a1c24;
+  margin-bottom: 1.8rem;
+} */
+.service-icons {
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-bottom: 1.8rem;
+}
+.serv-icons {
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  /* background-color: #4e5c6d; */
+  /* background-color: #27303b; */
+  background-color: #222a46;
+  padding: 1.4rem 1.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.8rem;
+}
+.s-card-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 2.2rem;
+}
+
+.s-card-description {
+  line-height: 1.6;
+  color: #69778c;
+  font-size: 1.6rem;
+}
+
+/* ! -------------------------- Courses Section ------------------------- */
+
+.section-course {
+  padding: 6.4rem 0rem 9.6rem 0rem;
+}
+.courses {
+  margin-top: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 7.6rem;
+}
+
+.course-card {
+  background-color: #fff;
+  width: 30rem;
+  height: 38rem;
+  padding: 0rem 0rem 0rem 0rem;
+  box-shadow: 0rem 1.2rem 2.4rem 0rem rgb(0 0 0 / 10%);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.course-card:hover {
+  box-shadow: 0rem 1.8rem 3.2rem 0rem rgb(0 0 0 / 10%);
+  transform: translateY(-1.4rem);
+}
+.courses-img {
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+  width: 100%;
+}
+.card-text-box {
+  padding: 0rem 3rem 3rem 3rem;
+  text-align: center;
+}
+.course-title {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-top: 3.2rem;
+  font-weight: 600;
+}
+.course-description {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: 2.2rem;
+}
+.all-courses-box {
+  margin-top: 3.2rem;
+  text-align: center;
+}
+.all-courses:link,
+.all-courses:visited {
+  color: #1a1c24;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #1a1c24;
+  transition: all 0.3s;
+}
+.all-courses:hover,
+.all-courses:active {
+  border-bottom: 1px solid transparent;
+}
+
+/* ! -------------------------- Courses Contact ------------------------- */
+
+.section-contact {
+  padding: 9.6rem 0rem;
+  background-image: linear-gradient(-133deg, #7282eb, #74aee3);
+}
+.contact-box {
+  height: 30vh;
+}
+
+.contact-title:link,
+.contact-title:visited {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding-bottom: 1rem;
+}
+
+.contact-title:hover,
+.contact-title:active {
+  border-bottom: 5px solid #fff;
+}
+
+/* ! -------------------------- media  Contact ------------------------- */
+.section-media {
+  padding: 4.2rem 0rem;
+  background-color: #27303b;
+}
+.media-box {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.media-icon {
+  color: #4e5c6d;
+  font-size: 3.2rem;
+}
+
+.media-icon:hover {
+  color: #fff;
+}
+
+/* ! -------------------------- Footer ------------------------- */
+
+.footer {
+  background-color: #1a1c24;
+  padding: 4.8rem 0;
+
+  color: #fff;
+}
+.footer-container {
+  width: 110rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.footer-col-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6rem;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.address-text {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.col-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #a7aeb6;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:visited {
+  color: #fff;
+}
+
+.footer-link-c {
+  color: #a7aeb6;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+.footer-link-c:hover {
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: 2.2rem;
+}
